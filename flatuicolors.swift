@@ -2,7 +2,8 @@
 //  flatuicolors.swift
 //  Flat UI Colors
 //
-//  Created by Grigory Avdyushin on 22.01.15.
+//  Originally created by Grigory Avdyushin on 22.01.15.
+//  Adapted by Arnaud Christ to respect Swift 3 naming guidelines on 21.07.16.
 //  Copyright (c) 2015 Grigory Avdyushin. All rights reserved.
 //
 
@@ -18,34 +19,34 @@ extension UIColor {
     }
 
     // green sea
-    class func turquoiseColor()    -> UIColor { return UIColor.colorWithHex(0x1abc9c) }
-    class func greenSeaColor()     -> UIColor { return UIColor.colorWithHex(0x16a085) }
+    class func turquoise()    -> UIColor { return UIColor.colorWithHex(0x1abc9c) }
+    class func greenSea()     -> UIColor { return UIColor.colorWithHex(0x16a085) }
     // green
-    class func emeraldColor()      -> UIColor { return UIColor.colorWithHex(0x2ecc71) }
-    class func nephritisColor()    -> UIColor { return UIColor.colorWithHex(0x27ae60) }
+    class func emerald()      -> UIColor { return UIColor.colorWithHex(0x2ecc71) }
+    class func nephritis()    -> UIColor { return UIColor.colorWithHex(0x27ae60) }
     // blue
-    class func peterRiverColor()   -> UIColor { return UIColor.colorWithHex(0x3498db) }
-    class func belizeHoleColor()   -> UIColor { return UIColor.colorWithHex(0x2980b9) }
+    class func peterRiver()   -> UIColor { return UIColor.colorWithHex(0x3498db) }
+    class func belizeHole()   -> UIColor { return UIColor.colorWithHex(0x2980b9) }
     // purple
-    class func amethystColor()     -> UIColor { return UIColor.colorWithHex(0x9b59b6) }
-    class func wisteriaColor()     -> UIColor { return UIColor.colorWithHex(0x8e44ad) }
+    class func amethyst()     -> UIColor { return UIColor.colorWithHex(0x9b59b6) }
+    class func wisteria()     -> UIColor { return UIColor.colorWithHex(0x8e44ad) }
     // dark blue
-    class func wetAsphaltColor()   -> UIColor { return UIColor.colorWithHex(0x34495e) }
-    class func midnightBlueColor() -> UIColor { return UIColor.colorWithHex(0x2c3e50) }
+    class func wetAsphalt()   -> UIColor { return UIColor.colorWithHex(0x34495e) }
+    class func midnightBlue() -> UIColor { return UIColor.colorWithHex(0x2c3e50) }
     // yellow
-    class func sunFlowerColor()    -> UIColor { return UIColor.colorWithHex(0xf1c40f) }
-    class func flatOrangeColor()   -> UIColor { return UIColor.colorWithHex(0xf39c12) }
+    class func sunFlower()    -> UIColor { return UIColor.colorWithHex(0xf1c40f) }
+    class func flatOrange()   -> UIColor { return UIColor.colorWithHex(0xf39c12) }
     // orange
-    class func carrotColor()       -> UIColor { return UIColor.colorWithHex(0xe67e22) }
-    class func pumkinColor()       -> UIColor { return UIColor.colorWithHex(0xd35400) }
+    class func carrot()       -> UIColor { return UIColor.colorWithHex(0xe67e22) }
+    class func pumkin()       -> UIColor { return UIColor.colorWithHex(0xd35400) }
     // red
-    class func alizarinColor()     -> UIColor { return UIColor.colorWithHex(0xe74c3c) }
-    class func pomegranateColor()  -> UIColor { return UIColor.colorWithHex(0xc0392b) }
+    class func alizarin()     -> UIColor { return UIColor.colorWithHex(0xe74c3c) }
+    class func pomegranate()  -> UIColor { return UIColor.colorWithHex(0xc0392b) }
     // white
-    class func cloudsColor()       -> UIColor { return UIColor.colorWithHex(0xecf0f1) }
-    class func silverColor()       -> UIColor { return UIColor.colorWithHex(0xbdc3c7) }
+    class func clouds()       -> UIColor { return UIColor.colorWithHex(0xecf0f1) }
+    class func silver()       -> UIColor { return UIColor.colorWithHex(0xbdc3c7) }
     // gray
-    class func asbestosColor()     -> UIColor { return UIColor.colorWithHex(0x7f8c8d) }
-    class func concerteColor()     -> UIColor { return UIColor.colorWithHex(0x95a5a6) }
+    class func asbestos()     -> UIColor { return UIColor.colorWithHex(0x7f8c8d) }
+    class func concerte()     -> UIColor { return UIColor.colorWithHex(0x95a5a6) }
 
 }
